@@ -1,0 +1,40 @@
+.logo
+{
+    height: 350px;
+    width: 1400px;
+    padding-right: 10px;
+}
+.logoContainer
+{
+    background-color: rgba(217,235,251);
+}
+.navbar
+{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #33395d;
+    color: #fff;
+    height: 60px;
+    padding: 0 20px;
+}
+.List
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.listitem
+{
+    margin-right: 70px;
+    font-size: larger;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 100px;
+}
+.listitem:hover
+{
+    text-decoration: underline;
+}
